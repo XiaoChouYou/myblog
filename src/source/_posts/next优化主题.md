@@ -209,12 +209,14 @@ for $inject_style in hexo-config('injects.style')
 还有一种方法打开Blog/source/_date/style.styl文件，添加以下代码：
 ```bash
 // 主页文章添加阴影效果
-.post {
-   margin-top: 60px;
-   margin-bottom: 60px;
-   padding: 25px;
-   -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
-   -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+.post-block {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  background:rgba(255,255,255,0.6) none repeat scroll !important;
+  -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+  -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+}
 ```
 * 有错误待验证
 
