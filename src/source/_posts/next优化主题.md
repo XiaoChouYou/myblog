@@ -328,8 +328,9 @@ xxxx
 从根目录Blog打开Git Bash，执行下面的命令，安装插件：
 ```bash
 npm install hexo-wordcount --save
+npm install hexo-symbols-count-time
 ```
-然后打开站点配置文件，在文件末尾加上下面的代码：
+然后打开站点配置文件Blog/_config.yml，在文件末尾加上下面的代码：
 
 ```bash
 symbols_count_time:
@@ -340,6 +341,7 @@ symbols_count_time:
   exclude_codeblock: false     # 排除代码字数统计
 
 ```
+* 操作方法也可以参考[github](https://github.com/theme-next/hexo-symbols-count-time) 
 效果如下图：
 xxxx
 
