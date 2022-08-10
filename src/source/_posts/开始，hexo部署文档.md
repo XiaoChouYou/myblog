@@ -23,6 +23,8 @@ apt-get update
 apt-get install git -y
 ```
 
+<!-- more -->
+
 ### 安装nvm
 ```bash
 mkdir -p /data/app

@@ -26,6 +26,8 @@ menu:
 next使用的图标全是[图标库 - Font Awesome 中文网](http://www.fontawesome.com.cn/faicons/)这一网站的,
 有想用的图标直接在fontawesome上面找图标的名称就行。resources是我自己添加的。
 
+<!-- more -->
+
 新添加的菜单需要翻译对应的中文，打开theme/next/languages/zh-CN.yml，在menu下设置：
 ```bash
 menu:
