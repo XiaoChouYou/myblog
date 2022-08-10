@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 李同学的特殊用法
 subtitle: ''
-description: ''
+description: '君子博学而日叁醒乎己，则知明而行无过矣'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: 秋天以北
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://testserv.cn/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,9 +97,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+#theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: https://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@github.com/XiaoChouYou/XiaoChouYou.github.io.git  #你的仓库地址
+  #repository: https://github.com/XiaoChouYou/XiaoChouYou.github.io.git  #你的仓库地址
+  branch: master
