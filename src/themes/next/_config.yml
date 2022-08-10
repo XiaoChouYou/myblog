@@ -139,7 +139,7 @@ menu_settings:
 # ---------------------------------------------------------------
 
 sidebar:
-  # Sidebar Position.
+  # Sidebar Position. #设置侧边栏位置
   position: left
   #position: right
 
@@ -149,10 +149,10 @@ sidebar:
   #width: 300
 
   # Sidebar Display (only for Muse | Mist), available values:
-  #  - post    expand on posts automatically. Default.
-  #  - always  expand for all pages automatically.
-  #  - hide    expand only when click on the sidebar toggle icon.
-  #  - remove  totally remove sidebar including sidebar toggle.
+  #  - post    expand on posts automatically. Default. 默认显示模式
+  #  - always  expand for all pages automatically. 一直显示
+  #  - hide    expand only when click on the sidebar toggle icon. 初始隐藏
+  #  - remove  totally remove sidebar including sidebar toggle. 移除侧边栏
   display: post
 
   # Sidebar padding in pixels.
@@ -179,16 +179,16 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-#GitHub: https://github.com/yourname || fab fa-github
-#E-Mail: mailto:yourname@gmail.com || fa fa-envelope
-#Weibo: https://weibo.com/yourname || fab fa-weibo
-#Google: https://plus.google.com/yourname || fab fa-google
-#Twitter: https://twitter.com/yourname || fab fa-twitter
-#FB Page: https://www.facebook.com/yourname || fab fa-facebook
-#StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
-#YouTube: https://youtube.com/yourname || fab fa-youtube
-#Instagram: https://instagram.com/yourname || fab fa-instagram
-#Skype: skype:yourname?call|chat || fab fa-skype
+  GitHub: https://github.com/yourname || fab fa-github
+  E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+  Weibo: https://weibo.com/yourname || fab fa-weibo
+  #Google: https://plus.google.com/yourname || fab fa-google
+  Twitter: https://twitter.com/yourname || fab fa-twitter
+  #FB Page: https://www.facebook.com/yourname || fab fa-facebook
+  #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
+  #YouTube: https://youtube.com/yourname || fab fa-youtube
+  #Instagram: https://instagram.com/yourname || fab fa-instagram
+  #Skype: skype:yourname?call|chat || fab fa-skype
 
 social_icons:
   enable: true
@@ -198,12 +198,13 @@ social_icons:
 # Blog rolls
 links_settings:
   icon: fa fa-link
-  title: Links
+  title: 链接网站  #修改名称
   # Available values: block | inline
   layout: block
 
 links:
-#Title: http://yoursite.com
+  # Title: http://yoursite.com
+  百度: www.baidu.com
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
