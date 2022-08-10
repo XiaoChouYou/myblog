@@ -160,18 +160,28 @@ three:
 custom_file_path:
   style: source/_data/styles.styl
 ```
+* 注意缩进级别
 
 打开根目录Blog/source创建文件_data/styles.styl，添加以下内容：
-
 ```bash
 // 添加背景图片
 body {
-      background: url(images/background.png);//自己喜欢的图片地址
+      background: url(/images/background.jpg);//自己喜欢的图片地址
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: 50% 50%;
 }
+```
+如果main.styl报错找不到相关代码，themes/next/source/css下找到main.styl文件
+最后一行的配置修改为，并修改imoort目录
+```bash
+// Custom Layer
+// --------------------------------------------------
+for $inject_style in hexo-config('injects.style')
+  @import '../_data/styles.styl'; // 修改内容
+
+
 ```
 
 
