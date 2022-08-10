@@ -104,6 +104,4 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://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@github.com/XiaoChouYou/XiaoChouYou.github.io.git  #你的仓库地址
-  #repository: https://github.com/XiaoChouYou/XiaoChouYou.github.io.git  #你的仓库地址
   branch: master
