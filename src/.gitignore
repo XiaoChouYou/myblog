@@ -6,4 +6,4 @@ node_modules/
 .deploy*/
 _multiconfig.yml
 _config.yml
-public
+public/
