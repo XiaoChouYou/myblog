@@ -14,3 +14,6 @@ source/lib/*
 !source/lib/anime.min.js
 !source/lib/velocity/
 !source/lib/cavas-nest/
+!source/lib/three/
+!source/lib/pace/
+!source/lib/fancybox/
