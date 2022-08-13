@@ -7,7 +7,7 @@ tags:
   - docker
   - oracle
 ---
-
+<!-- more -->
 [docker hub](https://hub.docker.com/r/absolutapps/oracle-12c-ee)
 #  下载
 ``` bash
