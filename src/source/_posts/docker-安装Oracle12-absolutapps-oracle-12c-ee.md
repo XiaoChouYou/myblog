@@ -10,7 +10,7 @@ tags:
 docker pull absolutapps/oracle-12c-ee
 ```
 
-
+<!-- more -->
 # 启动（自行修改端口即可）
 
 ## 创建一个文件夹来挂载数据
