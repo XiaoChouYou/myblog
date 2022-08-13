@@ -2,7 +2,7 @@
 title: docker 安装Oracle12 (absolutapps/oracle-12c-ee )
 date: 2022-08-12 15:15:31
 categories:
-  - 测试环境
+  - [日常工作经验记录, 2022,08]
 tags:
   - docker
   - oracle
