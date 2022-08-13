@@ -312,6 +312,7 @@ post_navigation: left
 # See: https://theme-next.org/docs/theme-settings/custom-pages
 # ---------------------------------------------------------------
 
+# 标签云词
 # TagCloud settings for tags page.
 tagcloud:
   # All values below are same as default, change them by yourself.
@@ -411,7 +412,8 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: false
+  # enable: false
+  enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
   host:
@@ -424,7 +426,8 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: Lato
+    # family: Lato
+    family: EB Garamond
     size:
 
   # Font settings for site title (.site-title).
