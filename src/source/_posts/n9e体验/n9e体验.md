@@ -1842,3 +1842,6 @@ addresses =  "172.22.0.13:2181"
 后续可以继续探索
 prometheus 的采集器是否有比较合适的策略
 Grafana 中是否有好用的模板
+
+记录一下
+![img.png](img.png)
