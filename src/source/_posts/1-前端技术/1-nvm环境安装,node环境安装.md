@@ -1,11 +1,11 @@
 ---
-title: nvm环境安装,node环境安装
+title: 1-nvm环境安装,node环境安装
 date: 2023-02-11 15:15:31
 categories:
-- [日常工作经验记录,前端,搭建个人博客,环境准备]
-  tags:
-- nvm
-- node
+  - [日常工作经验记录,前端,搭建个人博客,环境准备]
+tags:
+  - nvm
+  - node
 ---
 
 
@@ -32,9 +32,13 @@ nvm alias default 12.15.0
 
 # 修改国内镜像源
 ```shell
+
 npm config set registry         https://registry.npm.taobao.org
 npm config set sass_binary_site https://npm.taobao.org/mirrors/node-sass/
+npm config set disturl https://npm.taobao.org/dist --global
 
+npm install --global yarn
+yarn --version
 ```
 
 

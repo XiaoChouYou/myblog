@@ -1,14 +1,15 @@
 ---
-title: nvm环境安装,node环境安装
+title: 2-个人博客hexo安装
 date: 2023-02-11 15:15:31
 categories:
-- [日常工作经验记录,前端,搭建个人博客,环境准备]
-  tags:
-- 博客
-- hexo
+  - [日常工作经验记录,前端,搭建个人博客,环境准备]
+tags:
+  - 博客
+  - hexo
+  - 前端
 ---
 
-
+<!-- more -->
 # 安装脚手架
 ```shell
 npm install hexo-cli -g
