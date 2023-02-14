@@ -79,7 +79,7 @@ Stable level v1
 ## API 版本列表
 ```text
 apiGroups APIgroup就是apiversion中的一部分，apiversion = Apigroup/version
->>kubectl api-version
+>>kubectl api-versions
 admissionregistration.k8s.io/v1
 admissionregistration.k8s.io/v1beta1
 apiextensions.k8s.io/v1
