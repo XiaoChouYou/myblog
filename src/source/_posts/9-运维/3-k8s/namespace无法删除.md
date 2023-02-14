@@ -39,7 +39,7 @@ kubectl api-resources -o name --verbs=list –namespaced
 2、然后使用 kubectl get 资源类型 –n 命名空间
 
 查看是否真的存在未释放的资源。
-![img.png](img.png)
+![img.png](imgs/img.png)
 3、最终结果是，命名空间下全部资源都是No Resources没有！
 
 
@@ -55,10 +55,10 @@ kubectl get namespace monitoring -o json > monitoring.json
 这条命令，将当前的命名空间以 json文件的形式导出。
 
 2、将 spec 下的内容删除：这一步骤的目的在于将内容清空后，以空内容的ns覆盖原有ns，这样保证了要删除的ns内容为空，删除的命令也就无法阻塞了
-![img_1.png](img_1.png)
+![img_1.png](imgs/img_1.png)
 3、将具体内容为空的 namespace ，通过 api-server 接口，覆盖到k8s集群中
 需要注意的是：由于当前我们k8s主节点使用了认证，如果你直接使用以下命令，调用虚拟IP的api-server接口，会发现请求发送成功，但是没有响应的情况，如下：
-![img_2.png](img_2.png)
+![img_2.png](imgs/img_2.png)
 
 4、针对有认证的情况，需要使用 kube-proxy 进行代理：
 kubectl proxy --port=8081
@@ -69,7 +69,7 @@ kubectl proxy --port=8081
 在一个窗口中执行 kubectl proxy
 另一个窗口中执行：
 curl -k -H "Content-Type: application/json" -X PUT --data-binary @monitoring.json http://127.0.0.1:8081/api/v1/namespaces/monitoring/finalize
-![img_3.png](img_3.png)
+![img_3.png](imgs/img_3.png)
 
 
 

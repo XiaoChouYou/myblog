@@ -115,7 +115,7 @@ storage.k8s.io/v1beta1
 v1  core: 一般在可以直接设为空
 ```
 ## API 列表图
-![img_4.png](img_4.png)s
+![img_4.png](imgs/img_4.png)s
 
 ## Resources
 ```text
