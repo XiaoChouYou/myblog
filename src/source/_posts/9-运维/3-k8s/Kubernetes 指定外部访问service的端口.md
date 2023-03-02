@@ -1,4 +1,9 @@
-
+---
+title: K8S 修改service端口,指定特定端口
+top: true
+date: 2023-03-02 08:21:51
+tags:
+---
 
 # 修改service端口,指定特定端口
 

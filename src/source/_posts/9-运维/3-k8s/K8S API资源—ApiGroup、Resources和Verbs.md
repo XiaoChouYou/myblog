@@ -1,3 +1,11 @@
+---
+title: K8S API资源—ApiGroup、Resources和Verbs
+top: true
+date: 2023-03-02 08:21:51
+tags:
+---
+
+
 # K8S API资源—ApiGroup、Resources和Verbs
 
 
